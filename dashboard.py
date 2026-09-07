@@ -2,19 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.font_manager as fm
+import koreanize_matplotlib  # 한글 폰트를 패키지 내장 폰트로 자동 등록 (OS/배포 환경 무관)
 
 st.set_page_config(page_title="인터넷전문은행 중·저신용자 대출 규제 대시보드", layout="wide")
 
 plt.rcParams['axes.unicode_minus'] = False
-
-# 한글 폰트 자동 감지: 로컬(Windows: Malgun Gothic) / 클라우드(Linux: NanumGothic) 둘 다 대응
-_KOREAN_FONT_CANDIDATES = ["Malgun Gothic", "NanumGothic", "AppleGothic"]
-_available = {f.name for f in fm.fontManager.ttflist}
-for _font in _KOREAN_FONT_CANDIDATES:
-    if _font in _available:
-        plt.rcParams['font.family'] = _font
-        break
 
 DATA_PATH = "data/데이터북_v4.xlsx"
 

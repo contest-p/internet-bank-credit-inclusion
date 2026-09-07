@@ -4,3 +4,4 @@ matplotlib
 openpyxl
 jupyter
 streamlit
+koreanize-matplotlib
