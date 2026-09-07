@@ -3,3 +3,4 @@ numpy
 matplotlib
 openpyxl
 jupyter
+streamlit
