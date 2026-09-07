@@ -10,7 +10,9 @@
 internet-bank-credit-inclusion/
 ├── data/                # 원본 데이터 (엑셀 데이터북에서 추출한 시트)
 ├── images/              # 시각화 결과물 (png)
+├── fonts/               # 대시보드용 한글 폰트 (나눔고딕)
 ├── analysis.ipynb       # 분석 코드
+├── dashboard.py         # 보너스 Streamlit 대시보드
 ├── REPORT.md            # 최종 분석 리포트
 └── requirements.txt     # 의존성 목록
 ```
@@ -32,3 +34,7 @@ jupyter notebook analysis.ipynb
 2. (관찰) 3개 인터넷전문은행의 8% 이상 고금리 대출 취급비중은 어떻게 변화했는가?
 3. (해석) 평균신용점수 변화와 고금리 대출 취급비중 변화 사이에는 어떤 괴리가 나타나는가?
 4. (해석) 서민금융 제외 평균금리-평균금리 스프레드는 은행별·시점별로 어떻게 다른가?
+
+## 대시보드 (보너스)
+- 배포 URL: https://internet-bank-credit-inclusion-nqkhfe8fbqes9mr4atjdvc.streamlit.app/
+- 로컬 실행: `streamlit run dashboard.py`
