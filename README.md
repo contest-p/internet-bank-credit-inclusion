@@ -1,7 +1,8 @@
 # 인터넷전문은행 중·저신용자 대출 규제 실효성 분석
 
 코디세이 미션 — 시계열 데이터 분석 및 인사이트 리포트
-https://github.com/contest-p/internet-bank-credit-inclusion
+
+**GitHub 저장소**: https://github.com/contest-p/internet-bank-credit-inclusion
 
 ---
 

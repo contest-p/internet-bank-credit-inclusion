@@ -92,7 +92,9 @@
 
 카카오뱅크는 시작점보다 높은 수준에서 종료한 반면, 토스뱅크는 2026-06에 834점까지 하락했다.
 
-**시각화:** `images/01_credit_score_trend.png`
+**시각화:**
+
+![평균신용점수 원자료 및 3개월 이동평균](images/01_credit_score_trend.png)
 
 ---
 
@@ -106,7 +108,9 @@
 
 2026-06 토스뱅크의 고금리비중은 2026-05 **5.1% → 31.7%**로 **26.6%p 증가**했다.
 
-**시각화:** `images/02_high_rate_share_trend.png`
+**시각화:**
+
+![8% 이상 고금리 대출 취급비중 및 3개월 이동평균](images/02_high_rate_share_trend.png)
 
 ---
 
@@ -124,7 +128,11 @@
 
 따라서 단순 상대 변화율만으로 변화의 크기를 판단하는 것은 적절하지 않으며, 고금리비중은 **%p 변화와 함께 해석**해야 한다.
 
-**시각화:** `images/03_credit_score_pct_change.png`, `images/04_high_rate_pct_change.png`
+**시각화:**
+
+![평균신용점수 전월 대비 변화율](images/03_credit_score_pct_change.png)
+
+![고금리비중 전월 대비 변화율](images/04_high_rate_pct_change.png)
 
 ---
 
@@ -148,7 +156,9 @@
 - 평균신용점수: **834점**
 - 8% 이상 고금리비중: **31.7%**
 
-**시각화:** `images/05_spread_trend.png`
+**시각화:**
+
+![서민금융제외평균금리-평균금리 스프레드](images/05_spread_trend.png)
 
 ---
 
